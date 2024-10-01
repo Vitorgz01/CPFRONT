@@ -1,23 +1,7 @@
-/* components/Header.module.css */
-.header {
-  background-color: #0070f3;
-  padding: 20px;
-}
-
-.header nav ul {
-  list-style: none;
+.cardsContainer {
   display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
   gap: 20px;
-  margin: 0;
-  padding: 0;
-}
-
-.header nav ul li a {
-  color: white;
-  text-decoration: none;
-  font-size: 18px;
-}
-
-.header nav ul li a:hover {
-  text-decoration: underline;
+  margin-top: 40px;
 }

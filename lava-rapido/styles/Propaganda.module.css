@@ -1,0 +1,16 @@
+.propaganda {
+  position: relative;
+  text-align: center;
+  color: black;
+}
+
+.propaganda img {
+  border-radius: 8px;
+}
+
+.propaganda .text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
